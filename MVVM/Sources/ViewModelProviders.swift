@@ -9,6 +9,6 @@
 public final class ViewModelProviders {
 
     public static func get(for context: ViewModelContext, with factory: ViewModelFactory) -> ViewModelProvider {
-        return ViewModelProvider(with: ViewModelStores.of(context: context), factory: factory)
+        return ViewModelProvider(with: ViewModelStores.get(for: context), factory: factory)
     }
 }

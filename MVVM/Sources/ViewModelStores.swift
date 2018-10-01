@@ -7,7 +7,7 @@
 //
 
 public final class ViewModelStores {
-    public static func of(context: ViewModelContext) -> ViewModelStore {
+    public static func get(for context: ViewModelContext) -> ViewModelStore {
         if let existing = context.viewModelStore {
             return existing
         } else {
