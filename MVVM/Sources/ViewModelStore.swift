@@ -6,7 +6,7 @@
 //  Copyright © 2018 Dariusz Grzeszczak. All rights reserved.
 //
 
-final class ViewModelStore {
+public final class ViewModelStore {
     private var store = [String: ViewModel]()
 
     func put(viewModel: ViewModel, for key: String) {
@@ -15,5 +15,9 @@ final class ViewModelStore {
 
     func viewModel(for key: String) -> ViewModel? {
         return store[key]
+    }
+
+    public func clear() {
+        store = [:]
     }
 }

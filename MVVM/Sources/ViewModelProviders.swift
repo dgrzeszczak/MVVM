@@ -9,14 +9,6 @@
 public final class ViewModelProviders {
 
     public static func get(for context: ViewModelContext, with factory: ViewModelFactory) -> ViewModelProvider {
-        let store: ViewModelStore
-        if let existing = context.viewModelStore {
-            store = existing
-        } else {
-            store = ViewModelStore()
-            context.viewModelStore = store
-        }
-
-        return ViewModelProvider(with: store, factory: factory)
+        return ViewModelProvider(with: ViewModelStores.of(context: context), factory: factory)
     }
 }

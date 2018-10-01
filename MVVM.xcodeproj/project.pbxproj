@@ -24,6 +24,8 @@
 		08491BCD20B01A75008D93AA /* ViewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491BBC20B015E1008D93AA /* ViewModelProvider.swift */; };
 		08491BCE20B01A77008D93AA /* ViewModelProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491BBE20B015F1008D93AA /* ViewModelProviders.swift */; };
 		08491BCF20B01A7A008D93AA /* ViewModelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08491BC720B01A57008D93AA /* ViewModelStore.swift */; };
+		0856ED4A2162BC9900010557 /* ViewModelStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0856ED492162BC9900010557 /* ViewModelStores.swift */; };
+		0856ED4B2162BC9900010557 /* ViewModelStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0856ED492162BC9900010557 /* ViewModelStores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		08491BC320B01684008D93AA /* SingleViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewModelFactory.swift; sourceTree = "<group>"; };
 		08491BC520B0169E008D93AA /* CompositeViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeViewModelFactory.swift; sourceTree = "<group>"; };
 		08491BC720B01A57008D93AA /* ViewModelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelStore.swift; sourceTree = "<group>"; };
+		0856ED492162BC9900010557 /* ViewModelStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelStores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				08491BBC20B015E1008D93AA /* ViewModelProvider.swift */,
 				08491BBE20B015F1008D93AA /* ViewModelProviders.swift */,
 				08491BC720B01A57008D93AA /* ViewModelStore.swift */,
+				0856ED492162BC9900010557 /* ViewModelStores.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -242,6 +246,7 @@
 				08491BC420B01684008D93AA /* SingleViewModelFactory.swift in Sources */,
 				08491BBF20B015F1008D93AA /* ViewModelProviders.swift in Sources */,
 				08491BBD20B015E1008D93AA /* ViewModelProvider.swift in Sources */,
+				0856ED4A2162BC9900010557 /* ViewModelStores.swift in Sources */,
 				08491BC620B0169E008D93AA /* CompositeViewModelFactory.swift in Sources */,
 				08491BC120B01641008D93AA /* ViewModelFactory.swift in Sources */,
 				08491BC820B01A57008D93AA /* ViewModelStore.swift in Sources */,
@@ -259,6 +264,7 @@
 				08491BCE20B01A77008D93AA /* ViewModelProviders.swift in Sources */,
 				08491BCB20B01A6F008D93AA /* ViewModel.swift in Sources */,
 				08491BCC20B01A72008D93AA /* ViewModelFactory.swift in Sources */,
+				0856ED4B2162BC9900010557 /* ViewModelStores.swift in Sources */,
 				08491BC920B01A6A008D93AA /* SingleViewModelFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
