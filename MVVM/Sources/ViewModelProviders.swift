@@ -8,7 +8,7 @@
 
 public final class ViewModelProviders {
 
-    public static func get(for context: ViewModelContext, with factory: ViewModelFactory) -> ViewModelProvider {
+    public static func get(for context: ViewModelContext, with factory: ViewModelFactory = InitializableViewModelFactory()) -> ViewModelProvider {
         return ViewModelProvider(with: ViewModelStores.get(for: context), factory: factory)
     }
 }

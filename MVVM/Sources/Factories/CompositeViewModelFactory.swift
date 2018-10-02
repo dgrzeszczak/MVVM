@@ -9,7 +9,7 @@
 public struct CompositeViewModelFactory: ViewModelFactory {
     private let factories: [ViewModelFactory]
     public init(with factories: [ViewModelFactory]) {
-        self.factories = factories
+        self.factories = factories + [InitializableViewModelFactory()]
     }
 
     public func create<VM: ViewModel>() -> VM? {
