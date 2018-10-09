@@ -3,12 +3,18 @@
 //  MVVM
 //
 //  Created by Dariusz Grzeszczak on 19/05/2018.
+//  Copyright © 2018 Dariusz Grzeszczak. All rights reserved.
 //
 
 // ViewModelProviders - Android like implementation
 
-
+#ifdef TARGET_OS_WATCHOS
+#import <WatchKit/WatchKit.h>
+#elif TARGET_OS_IOS || TARGET_OS_TV
 #import <UIKit/UIKit.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
 
 //! Project version number for MVVM.
 FOUNDATION_EXPORT double MVVMVersionNumber;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "0940"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "08491B6320B01004008D93AA"
-               BuildableName = "MVVM.framework"
-               BlueprintName = "MVVM"
+               BlueprintIdentifier = "0853F7D7216D48D300F1D4DF"
+               BuildableName = "MVVM_macOS.framework"
+               BlueprintName = "MVVM-macOS"
                ReferencedContainer = "container:MVVM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "08491B6C20B01005008D93AA"
-               BuildableName = "MVVMTests.xctest"
-               BlueprintName = "MVVMTests"
-               ReferencedContainer = "container:MVVM.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM.framework"
-            BlueprintName = "MVVM"
-            ReferencedContainer = "container:MVVM.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM.framework"
-            BlueprintName = "MVVM"
+            BlueprintIdentifier = "0853F7D7216D48D300F1D4DF"
+            BuildableName = "MVVM_macOS.framework"
+            BlueprintName = "MVVM-macOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM.framework"
-            BlueprintName = "MVVM"
+            BlueprintIdentifier = "0853F7D7216D48D300F1D4DF"
+            BuildableName = "MVVM_macOS.framework"
+            BlueprintName = "MVVM-macOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
