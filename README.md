@@ -21,7 +21,7 @@ class MyViewController: UIViewController {
 
 *ViewModel* is created for specific contexts (*ViewControllers*) and live as long as the context (when context is deallocated, *ViewModel* will be  deallocated automatically). 
 
-*View Model* is created using the factory by calling ```provider.get()``` method. You have to keep in mind all *View Models* are "cached" for specific context. That mean getting the same type of View Model from the same context second time will return cached View Model, not new one (it is useful for sharing data between views). 
+*View Model* is created by the factory when you call ```provider.get()``` method first time. You have to keep in mind all *View Models* are "cached" for specific context. It means that getting the same type of View Model for the same context second time will return cached View Model, not new one (wg. it can be useful for sharing data between views). 
 
 From time to time you may need to re-create *Viewm Model(s)* for the context. You can clear the context calling  ```.clear()``` method from ```ViewModelStore``` but you have to know that all *View Models* will be removed for that context.
 
@@ -50,7 +50,7 @@ struct MyViewModelFactory: ViewModelFactory {
 }
 ```
 
-and then:
+and then you can use it like that:
 ```swift
 var provider = ViewModelProviders.provider(for: controller, with: MyViewModelFactory())
 guard let viewModel: MyViewModel = provider.get() else { return }
