@@ -1,7 +1,5 @@
 
-*MVVM* framework is swift library inspired by *ViewModel* from Android Architecture components.
-
-I strongly recommend to look at [Android docs](https://developer.android.com/topic/libraries/architecture/viewmodel).
+*MVVM* framework is swift library inspired by *ViewModel* from Android Architecture components. I strongly recommend to look at [Android docs](https://developer.android.com/topic/libraries/architecture/viewmodel).
 
 Working on *Model-ViewModel-View* architecture you can ask the question where you should instantiate *View Model* and how to pass it to the *View* (ie. ```UIViewController```). You can prepare your parametrized factory or use the default one ```InitializableViewModelFactory``` which works on ```Initializable``` ViewModels. 
 ```swift
