@@ -19,7 +19,7 @@ class MyViewController: UIViewController {
 
 ## Lifecycle
 
-*ViewModel* created with specific contexts (*ViewControllers*) and live as long as the context (when context is deallocated, *ViewModel* will be  deallocated automatically). 
+*ViewModel* is created for specific contexts (*ViewControllers*) and live as long as the context (when context is deallocated, *ViewModel* will be  deallocated automatically). 
 
 *View Model* is created using the factory by calling ```provider.get()``` method. You have to keep in mind all *View Models* are "cached" for specific context. That mean getting the same type of View Model from the same context second time will return cached View Model, not new one (it is useful for sharing data between views). 
 
