@@ -7,9 +7,27 @@
 //
 
 public struct CompositeViewModelFactory: ViewModelFactory {
-    private let factories: [ViewModelFactory]
+
+    private var factories: [ViewModelFactory] = [InitializableViewModelFactory()]
+
+    public init() { }
+    public init(with factory: ViewModelFactory) {
+        add(factory: factory)
+    }
+    public init<VM>(with factory: @escaping () -> VM) where VM: ViewModel {
+        add(factory: factory)
+    }
+
     public init(with factories: [ViewModelFactory]) {
-        self.factories = factories + [InitializableViewModelFactory()]
+        self.factories.append(contentsOf: factories)
+    }
+
+    public mutating func add(factory: ViewModelFactory) {
+        factories.append(factory)
+    }
+
+    public mutating func add<VM>(factory: @escaping () -> VM) where VM: ViewModel {
+        factories.append(SingleViewModelFactory(with: factory))
     }
 
     public func create<VM: ViewModel>() -> VM? {

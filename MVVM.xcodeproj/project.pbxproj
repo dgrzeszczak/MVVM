@@ -96,6 +96,7 @@
 		0853F7DA216D48D400F1D4DF /* MVVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVM.h; sourceTree = "<group>"; };
 		0853F7DB216D48D400F1D4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0856ED492162BC9900010557 /* ViewModelStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelStores.swift; sourceTree = "<group>"; };
+		08D9FAF12170F4920051606F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		08EBA2262163FC770012BDE8 /* InitializableViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializableViewModelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +170,7 @@
 			children = (
 				08491B8920B010A5008D93AA /* Sources */,
 				08491B6720B01004008D93AA /* MVVM.h */,
+				08D9FAF12170F4920051606F /* README.md */,
 				08491B6820B01004008D93AA /* Info.plist */,
 			);
 			path = MVVM;
