@@ -66,3 +66,35 @@ compositeFactory.add { MyViewModel() }
 compositeFactory.add { MySecondViewModel() }
 compositeFactory.add { ParamViewModel(intParam: 3) }
 ```
+
+## More "complicated" factory example with RX ;)
+```swift
+final class FindViewModelFactory: ViewModelFactory {
+
+    private let disposeBag = DisposeBag()
+    private var factory = CompositeViewModelFactory()
+
+    private lazy var findViewModel: FindViewModel = {
+        return FindViewModel()
+    }()
+
+    init() {
+        factory.add { [unowned self] in self.findViewModel }
+        factory.add { [unowned self] in self.createSearchGlobalViewModel() }
+        factory.add { BrandListViewModel(fetcher: ProductsWireframe.brandsFetcher) }
+        factory.add { ProductCategoryListViewModel() }
+        factory.add { ServiceCategoryListViewModel() }
+
+    }
+
+    private func createSearchGlobalViewModel() -> SearchGlobalViewModel {
+        let searchGlobalViewModel = SearchGlobalViewModel()
+        findViewModel.searchPredicate.asObservable().bind(to: searchGlobalViewModel.searchPredicate).disposed(by: disposeBag)
+        return searchGlobalViewModel
+    }
+
+    func create<VM>() -> VM? {
+        return factory.create()
+    }
+}
+```
