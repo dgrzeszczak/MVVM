@@ -8,9 +8,11 @@
 
 // ViewModelProviders - Android like implementation
 
+#include <TargetConditionals.h>
+
 #ifdef TARGET_OS_WATCHOS
 #import <WatchKit/WatchKit.h>
-#elif TARGET_OS_IOS || TARGET_OS_TV
+#elif TARGET_OS_IPHONE || TARGET_OS_TV || TARGET_IPHONE_SIMULATOR
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>

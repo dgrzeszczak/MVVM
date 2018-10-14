@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0853F79C216D469900F1D4DF"
+            BuildableName = "MVVM_watchOS.framework"
+            BlueprintName = "MVVM-watchOS"
+            ReferencedContainer = "container:MVVM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
