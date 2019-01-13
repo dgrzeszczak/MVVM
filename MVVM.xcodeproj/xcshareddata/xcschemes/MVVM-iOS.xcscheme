@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08491B6320B01004008D93AA"
-               BuildableName = "MVVM_iOS.framework"
+               BuildableName = "MVVM.framework"
                BlueprintName = "MVVM-iOS"
                ReferencedContainer = "container:MVVM.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM_iOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-iOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM_iOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-iOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08491B6320B01004008D93AA"
-            BuildableName = "MVVM_iOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-iOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>

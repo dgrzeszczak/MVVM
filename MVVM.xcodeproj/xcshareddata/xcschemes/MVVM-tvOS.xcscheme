@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0853F7B2216D484B00F1D4DF"
-               BuildableName = "MVVM_tvOS.framework"
+               BuildableName = "MVVM.framework"
                BlueprintName = "MVVM-tvOS"
                ReferencedContainer = "container:MVVM.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0853F7B2216D484B00F1D4DF"
-            BuildableName = "MVVM_tvOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-tvOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0853F7B2216D484B00F1D4DF"
-            BuildableName = "MVVM_tvOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-tvOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0853F7B2216D484B00F1D4DF"
-            BuildableName = "MVVM_tvOS.framework"
+            BuildableName = "MVVM.framework"
             BlueprintName = "MVVM-tvOS"
             ReferencedContainer = "container:MVVM.xcodeproj">
          </BuildableReference>
